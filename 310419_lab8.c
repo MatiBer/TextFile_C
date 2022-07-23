@@ -21,9 +21,9 @@ void load(struct Student *, char *);
 void get_word(FILE *, char *, int *);
 void check_firstname(struct Student *);
 void check_lastname(struct Student *);
-int compareIndex(); // mod
-void swapStudents(); // mod
-void sortByIndex(); // mod
+int compareIndex();
+void swapStudents();
+void sortByIndex(); 
 void plus(struct Student *);
 void save(struct Student *, char *);
 
@@ -38,7 +38,7 @@ int main()
     check_lastname(students);
     plus(students);
 
-    sortByIndex(students); // mod
+    sortByIndex(students); 
 
     save(students, "tablica1"); // Tu podajemy gdzie mma byc zapisane
 
@@ -163,7 +163,7 @@ void check_lastname(struct Student *students)
     }
 }
 
-// poczatek modyfikacji
+
 
 int compareIndex(int indA, int indB)
 {
@@ -194,7 +194,7 @@ void sortByIndex(struct Student *student)
     }
 }
 
-// koniec modyfikacji
+
 
 void plus(struct Student *students)
 {
