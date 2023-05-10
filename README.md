@@ -30,6 +30,6 @@ void save(struct Student *, char *);
 ## Kompilacja, uruchomienie i testowanie programu
 Program kompilowany i uruchamiany był na platformie Ubuntu 20.04.3 LTS za pomocą programu visual studio code.
 
-![image](https://github.com/MatiBer/TextFile_C/assets/106385056/cb3a30f9-0bff-4217-a35a-9ba6a6520b7b)
+![image](https://github.com/MatiBer/TextFile_C/assets/106385056/5f2d062b-1ae8-42fb-9076-acdfc39f7fd0)
 ![image](https://github.com/MatiBer/TextFile_C/assets/106385056/cf01ad07-601c-44e7-b731-b7f6d6ed7bc1)
 
